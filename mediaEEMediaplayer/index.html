@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<header>
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, post, get');
+header("Access-Control-Max-Age", "3600");
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
+header("Access-Control-Allow-Credentials", "true");
+?>
+</header>
+<body>
+<script src="/EEN.MediaPlayer.js"></script>
+<video id="videoElement" style="width: 100%; height:100%;" controls></video>
+<script>
+
+
+    var flvjs = EEN.MediaPlayer.flvjs;
+    if (flvjs.isSupported()) {
+
+        var videoElement = document.getElementById('videoElement');
+
+	var flvjs = EEN.MediaPlayer.flvjs,
+            esn = '',
+	    auth_key = '',
+	    start_timestamp = 'stream_een.cloud_demo',
+	    end_timestamp = '+30000';
+
+        var config = new EEN.MediaPlayer.MediaItem(esn);
+        config.setDomain('login.eagleeyenetworks.com')
+        config.setAuthKey(auth_key)
+        config.setStartTime(start_timestamp)
+        config.setEndTime(end_timestamp)
+        EEN.MediaPlayer.startPlayback(config, videoElement);
+
+    }
+
+
+
+</script>
+</body>
+</html>
