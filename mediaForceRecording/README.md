@@ -1,6 +1,6 @@
 # Eagle Eye Cloud VMS RTSP Stream Player
 
-This script allows you to fetch RTSP streams from all cameras within the account and play them using FFmpeg.
+This script allows you to fetch RTSP streams from the Eagle Eye Cloud VMS and play them using FFmpeg.
 
 ## Usage
 

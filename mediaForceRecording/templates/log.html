@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2"> <!-- Adjusted the comment to match the actual content attribute -->
+    <title>RECORDING VIA API</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 4px;
+        }
+        pre {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            color: #666;
+            font-family: monospace;
+            font-size: 11px;
+            margin-bottom: 10px;
+            max-width: 100%;
+            overflow: auto;
+            padding: 4px;
+            display: block;
+            word-wrap: break-word;
+        }
+        .copy-button {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+    <h1 style="text-align: center;">RECORDING VIA API</h1>
+    <p style="text-align: center;">sbx02@mvleest.com</p>
+    <button class="copy-button" data-clipboard-target="#log-text">
+        <i class="fas fa-copy"></i>
+    </button>
+    <pre id="log-text"><code class="language-bash">{{ lines|join('\n') }}</code></pre> <!-- Changed to use Prism -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <script>
+        var clipboard = new ClipboardJS('.copy-button');
+        clipboard.on('success', function(e) {
+            alert('Log text copied!');
+            e.clearSelection();
+        });
+    </script>
+</body>
+</html>
