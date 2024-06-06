@@ -3,11 +3,83 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1717687037827,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1717689230604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n+\n+\n usage:\n \n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n"
+                },
+                {
+                    "date": 1717689237493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n+# on mac:\n \n \n+\n usage:\n \n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n"
+                },
+                {
+                    "date": 1717689244662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n # on mac:\n \n+install python\n \n-\n usage:\n \n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n"
+                },
+                {
+                    "date": 1717689252450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,12 @@\n # on mac:\n \n install python\n \n+run: \n+\n+python\n+\n usage:\n \n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n"
+                },
+                {
+                    "date": 1717689266883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,12 @@\n install python\n \n run: \n \n-python\n+python3 -m pip install requests\n \n+python3 -m pip install pytz\n+\n usage:\n \n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n"
+                },
+                {
+                    "date": 1717689275315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n \n install python\n \n run: \n-\n python3 -m pip install requests\n \n python3 -m pip install pytz\n \n"
+                },
+                {
+                    "date": 1717689281602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n # on mac:\n \n install python\n \n-run: \n+Install the modules needed: \n python3 -m pip install requests\n \n python3 -m pip install pytz\n \n"
+                },
+                {
+                    "date": 1717689291228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n # on mac:\n-\n install python\n \n-Install the modules needed: \n+# Install the modules needed: \n python3 -m pip install requests\n \n python3 -m pip install pytz\n \n"
+                },
+                {
+                    "date": 1717689296616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n install python\n \n # Install the modules needed: \n python3 -m pip install requests\n-\n python3 -m pip install pytz\n \n+\n usage:\n \n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n"
+                },
+                {
+                    "date": 1717689303521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n python3 -m pip install requests\n python3 -m pip install pytz\n \n \n-usage:\n+# usage:\n \n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n"
+                },
+                {
+                    "date": 1717689310866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n python3 -m pip install pytz\n \n \n # usage:\n-\n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n python3 download.py -u \"username\" -p \"password\" -c esn -s start_timestamp -e end_timestamp<br>\n"
+                },
+                {
+                    "date": 1717689321484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,7 @@\n python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n python3 download.py -u \"username\" -p \"password\" -c esn -s start_timestamp -e end_timestamp<br>\n \n \n+# timestamp format:\n 20240605000010.500\n YYYYMMDDHHMM00.000\n"
+                },
+                {
+                    "date": 1717689328751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,11 @@\n \n \n # usage:\n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n-python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n+python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500\n python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n-python3 download.py -u \"username\" -p \"password\" -c esn -s start_timestamp -e end_timestamp<br>\n+python3 download.py -u \"username\" -p \"password\" -c esn -s start_timestamp -e end_timestamp\n \n \n # timestamp format:\n 20240605000010.500\n"
+                },
+                {
+                    "date": 1717689334454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,10 @@\n # Install the modules needed: \n python3 -m pip install requests\n python3 -m pip install pytz\n \n-\n # usage:\n-python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500 <br>\n+python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500\n python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n python3 download.py -u \"username\" -p \"password\" -c esn -s start_timestamp -e end_timestamp\n \n"
+                },
+                {
+                    "date": 1717689365746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n+* please note that the code doesn't handle special characters within the password so if neede set a temp password with only \n+\n # on mac:\n install python\n \n # Install the modules needed: \n"
+                },
+                {
+                    "date": 1717689373490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n-* please note that the code doesn't handle special characters within the password so if neede set a temp password with only \n+* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters \n \n # on mac:\n install python\n \n"
+                },
+                {
+                    "date": 1717689388270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n-* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters \n+* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters and numbers like: HnwJiJk29akwge\n \n # on mac:\n install python\n \n"
+                },
+                {
+                    "date": 1717689395017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n-* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters and numbers like: HnwJiJk29akwge\n+* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters and numbers\n \n # on mac:\n install python\n \n"
                 }
             ],
             "date": 1717687037827,
