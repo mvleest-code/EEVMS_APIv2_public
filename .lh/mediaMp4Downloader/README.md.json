@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 25,
+            "activePatchIndex": 26,
             "patches": [
                 {
                     "date": 1717687037827,
@@ -108,6 +108,10 @@
                 {
                     "date": 1717689637351,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,6 +21,7 @@\n ```\n \n \n # timestamp format:\n+```bash\n 20240605000010.500\n YYYYMMDDHHMM00.000\n"
+                },
+                {
+                    "date": 1717689660989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n # on mac:\n install python\n \n # Install the modules needed: \n+```bash\n python3 -m pip install requests\n python3 -m pip install pytz\n \n # usage:\n@@ -24,4 +25,5 @@\n # timestamp format:\n ```bash\n 20240605000010.500\n YYYYMMDDHHMM00.000\n+```\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1717687037827,

@@ -6,8 +6,10 @@
 install python
 
 # Install the modules needed: 
+```bash
 python3 -m pip install requests
 python3 -m pip install pytz
+```
 
 # usage:
 ```bash
