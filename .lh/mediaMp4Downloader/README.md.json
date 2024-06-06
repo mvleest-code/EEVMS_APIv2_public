@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 20,
             "patches": [
                 {
                     "date": 1717687037827,
@@ -80,6 +80,14 @@
                 {
                     "date": 1717689395017,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n-* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters and numbers like: HnwJiJk29akwge\n+* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters and numbers\n \n # on mac:\n install python\n \n"
+                },
+                {
+                    "date": 1717689423418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n # ee_api_v2_mp4_downloader# ee_api_v2_mp4_downloader\n \n-* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters and numbers\n+* please note that the code doesn't handle special characters within the password so if neede set a temp password with only letters and numbers.\n \n # on mac:\n install python\n \n@@ -10,8 +10,9 @@\n python3 -m pip install pytz\n \n # usage:\n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500\n+\n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500\n python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n python3 download.py -u \"username\" -p \"password\" -c esn -s start_timestamp -e end_timestamp\n \n"
+                },
+                {
+                    "date": 1717689428843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,11 @@\n # usage:\n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500\n \n python3 download.py -u \"username\" -p \"password\" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500\n-python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500<br>\n+\n+python3 download.py -u \"username\" -p \"password\" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500\n+\n python3 download.py -u \"username\" -p \"password\" -c esn -s start_timestamp -e end_timestamp\n \n \n # timestamp format:\n"
                 }
             ],
             "date": 1717687037827,
