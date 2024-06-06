@@ -10,6 +10,7 @@ python3 -m pip install requests
 python3 -m pip install pytz
 
 # usage:
+```bash
 python3 download.py -u "username" -p "password" -s 20240604000010.500 -e 20240605000010.500
 
 python3 download.py -u "username" -p "password" -c 10106c94 -s 20240604000010.500 -e 20240605000010.500
@@ -17,6 +18,7 @@ python3 download.py -u "username" -p "password" -c 10106c94 -s 20240604000010.50
 python3 download.py -u "username" -p "password" -c 10106c94,10106c94,10106c94,10106c94,10106c94 -s 20240604000010.500 -e 20240605000010.500
 
 python3 download.py -u "username" -p "password" -c esn -s start_timestamp -e end_timestamp
+```
 
 
 # timestamp format:
