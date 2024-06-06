@@ -28,3 +28,9 @@ python3 download.py -u "username" -p "password" -c esn -s start_timestamp -e end
 20240605000010.500
 YYYYMMDDHHMM00.000
 ```
+
+
+## todo:
+* Add requirements.txt for easier installation.
+* Handle special characters
+* Improve error handling

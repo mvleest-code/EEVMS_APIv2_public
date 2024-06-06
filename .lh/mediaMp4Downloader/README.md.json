@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 26,
+            "activePatchIndex": 34,
             "patches": [
                 {
                     "date": 1717687037827,
@@ -112,6 +112,38 @@
                 {
                     "date": 1717689660989,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n # on mac:\n install python\n \n # Install the modules needed: \n+```bash\n python3 -m pip install requests\n python3 -m pip install pytz\n \n # usage:\n@@ -24,4 +25,5 @@\n # timestamp format:\n ```bash\n 20240605000010.500\n YYYYMMDDHHMM00.000\n+```\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717689692393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n # Install the modules needed: \n ```bash\n python3 -m pip install requests\n python3 -m pip install pytz\n+```\n \n # usage:\n ```bash\n python3 download.py -u \"username\" -p \"password\" -s 20240604000010.500 -e 20240605000010.500\n@@ -25,5 +26,7 @@\n # timestamp format:\n ```bash\n 20240605000010.500\n YYYYMMDDHHMM00.000\n-```\n\\ No newline at end of file\n+```\n+\n+\n"
+                },
+                {
+                    "date": 1717689697792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,4 +29,5 @@\n YYYYMMDDHHMM00.000\n ```\n \n \n+## todo:\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717689707387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,5 +29,6 @@\n YYYYMMDDHHMM00.000\n ```\n \n \n-## todo:\n\\ No newline at end of file\n+## todo:\n+Add requirements.txt\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717689714750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,5 +30,5 @@\n ```\n \n \n ## todo:\n-Add requirements.txt\n\\ No newline at end of file\n+Add requirements.txt for easier installation.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717689727035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,5 +30,5 @@\n ```\n \n \n ## todo:\n-Add requirements.txt for easier installation.\n\\ No newline at end of file\n+*Add requirements.txt for easier installation.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717689732705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,5 +30,5 @@\n ```\n \n \n ## todo:\n-*Add requirements.txt for easier installation.\n\\ No newline at end of file\n+* Add requirements.txt for easier installation.\n"
+                },
+                {
+                    "date": 1717689740981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,4 +31,5 @@\n \n \n ## todo:\n * Add requirements.txt for easier installation.\n+* Handle special characters\n"
+                },
+                {
+                    "date": 1717689749904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,4 +32,5 @@\n \n ## todo:\n * Add requirements.txt for easier installation.\n * Handle special characters\n+* Improve error handling\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1717687037827,
