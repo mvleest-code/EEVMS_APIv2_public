@@ -1,0 +1,5 @@
+Flask>=3.0
+pytz>=2024.1
+requests>=2.31
+tqdm>=4.66
+websocket-client>=1.8

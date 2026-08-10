@@ -1,5 +1,12 @@
-.
-/.vscode
-/.history
-/.lh
-/websocketEventsTimer/venv
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+**/venv/
+.vscode/
+.history/
+.lh/
+*.log
+*.part
+baseaaa.json
+downloads/

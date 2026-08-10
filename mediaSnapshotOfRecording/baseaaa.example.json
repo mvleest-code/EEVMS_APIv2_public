@@ -1,0 +1,15 @@
+{
+  "username": "",
+  "password": "",
+  "host": "login.example.invalid",
+  "bhost": "",
+  "domain": ".example.invalid",
+  "branding": "",
+  "token": "",
+  "access_token": "",
+  "refresh_token": "",
+  "scope": "",
+  "token_type": "Bearer",
+  "expires_in": 0,
+  "camid": ""
+}

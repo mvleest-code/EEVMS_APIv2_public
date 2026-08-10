@@ -6,7 +6,6 @@
 import requests
 import websocket
 import json
-import ssl
 
 ## Global variables:
 with open('baseaaa.json') as user_file:
@@ -154,8 +153,10 @@ for v in data:
 #We create the websocket connection. Make sure we put in the auth_key in the HTTP
 #Cookie attribute instead of passing it as a query parameter (A= in previous calls.
 ws = websocket.WebSocket()
-ws = websocket.WebSocket(sslopt={"cert_reqs": ssl.CERT_NONE})
-ws.connect('wss://login.eagleeyenetworks.com/api/v2/Device/' + account_id +'/Events?A=' + auth_key , verify=False, cookie='auth_key=' + auth_key)
+ws.connect(
+    'wss://login.eagleeyenetworks.com/api/v2/Device/' + account_id + '/Events',
+    cookie='auth_key=' + auth_key,
+)
 
 #Now that we have connected we need to send a JSON structure to tell the API what devices
 #and events we are listening for (https://apidocs.eagleeyenetworks.com/#websocket-polling)
@@ -165,7 +166,7 @@ for d in devices:
     data = json.dumps(register_msg)
 
 #Send the register event data structure to the API
-print("Registering for status events " + auth_key)
+print("Registering for status events")
 ws.send(data)
 
 #Now we continue to recieve information as the API will push
